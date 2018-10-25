@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800,900");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal {
+  width: 20em;
+  height: auto;
+}
+
+.money-input-label {
+  display: block;
+}
+
+.money-input-field {
+  display: block;
+  padding: .3em .6em;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  font-size: 1em;
+  height: 2.2em;
+  width: 100%;
+}
+
+.money-input-interaction {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  margin-bottom: 1em;
+  background: #eeeeee;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.money-input-interaction .img-coin {
+  width: 6%;
+  margin-left: -3%;
+  margin-top: -3%;
+  position: absolute;
+}
+
+.money-input-wrapper.error .money-input-field {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=main.css.map */
